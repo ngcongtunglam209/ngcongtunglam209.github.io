@@ -7,7 +7,7 @@ hero:
   text: "Trợ lý toàn năng cho máy chủ của bạn"
   tagline: Đơn giản, mạnh mẽ, và được tạo ra để giúp cộng đồng của bạn vươn tầm.
   image:
-    src: /logo.png
+    src: ./logo.png
     alt: Yuna Bot Logo
   actions:
     - theme: brand
