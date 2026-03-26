@@ -3,7 +3,16 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "YunaBot",
-  description: "A VitePress Site",
+  description: "Trợ lý toàn năng cho máy chủ của bạn",
+  lang: 'vi-VN',
+
+  markdown: {
+    theme: {
+      light: "catppuccin-latte",
+      dark: "catppuccin-mocha",
+    },
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -24,9 +33,5 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],
-    
-    catppuccin: {
-      variant: 'mocha'
-    }
   }
 })
